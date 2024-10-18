@@ -1,0 +1,43 @@
+body{
+    background-color:cyan;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    margin-top: 50px;
+}
+.main-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 60vh;
+    margin-bottom: 2rem;
+}
+button{
+    outline: 0;
+    border: 0;
+    background-color: #4CAF50;
+    padding: 0.5rem 2rem;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 10px;
+    
+    
+}
+button:hover{
+    background-color: #d46a12;
+    transition: 0.2s ease-in-out;
+}
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
