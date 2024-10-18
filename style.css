@@ -16,7 +16,7 @@ h1{
     /* height: 60vh; */
     margin-bottom: 2rem;
 }
-button{
+#click{
     outline: 0;
     border: 0;
     background-color: #774caf;
@@ -28,7 +28,7 @@ button{
     
     
 }
-button:hover{
+#click:hover{
     background-color: #d46a12;
     transition: 0.2s ease-in-out;
 }
@@ -46,6 +46,13 @@ form{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    border: 1px solid #333;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-top: 2rem;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
 }
 input{
     padding: 0.5rem;
@@ -53,4 +60,19 @@ input{
     border-radius: 10px;
     border: 1px solid #333;
     outline: 0;
+
+}
+#submit{
+    outline: 0;
+    border: 0;
+    background-color: #4c77af;
+    padding: 0.3rem 2rem;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 10px;
+}
+#submit:hover{
+    background-color: #d4123c;
+    transition: 0.2s ease-in-out;
 }
